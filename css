@@ -1,0 +1,78 @@
+st.markdown("""
+<style>
+
+/* 🌍 MAIN BACKGROUND */
+.stApp {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}
+
+/* 🎓 TITLE */
+h1 {
+    color: #38bdf8;
+    text-align: center;
+}
+
+/* 📌 HEADERS */
+h2, h3 {
+    color: #38bdf8;
+}
+
+/* 📦 SIDEBAR */
+section[data-testid="stSidebar"] {
+    background-color: #020617;
+    border-right: 1px solid #334155;
+}
+
+/* 🔘 BUTTON */
+.stButton button {
+    background-color: #38bdf8;
+    color: #020617;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.stButton button:hover {
+    background-color: #0ea5e9;
+}
+
+/* 📝 INPUT BOX */
+.stTextInput input {
+    border-radius: 10px;
+    background-color: #1e293b;
+    color: white;
+    border: 1px solid #334155;
+}
+
+/* 📊 SUCCESS BOX (AI RESPONSE) */
+.stSuccess {
+    background-color: #1e293b;
+    border-left: 5px solid #38bdf8;
+    color: white;
+}
+
+/* ⚠️ WARNING BOX */
+.stWarning {
+    background-color: #7c2d12;
+    color: white;
+}
+
+/* 🧠 CARD STYLE (for Home/About) */
+.card {
+    background: #020617;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #334155;
+    margin-bottom: 15px;
+}
+
+/* ✨ HOVER EFFECT */
+.card:hover {
+    border-color: #38bdf8;
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+</style>
+""", unsafe_allow_html=True)
