@@ -1,0 +1,17 @@
+elif page == "About":
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.header("About UniGuide AI")
+    st.write("""
+    UniGuide AI is built to help Jamaican students transition from high school to university.
+
+    🎯 هدف:
+    - Provide guidance
+    - Reduce confusion
+    - Help students choose wisely
+
+    🚀 المستقبل:
+    - Smarter AI responses
+    - Scholarship matching
+    - Career pathway suggestions
+    """)
+    st.markdown('</div>', unsafe_allow_html=True)
